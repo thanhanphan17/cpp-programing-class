@@ -11,5 +11,8 @@ int main() {
 	pList.insert(2, 3);
 	pList.pop_back();
 	pList.printList();
+
+
+	pList.freeData();
 }
 

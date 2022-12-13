@@ -106,3 +106,15 @@ void SinglyList::pop_back() {
 	delete tmp;
 	tmp = nullptr;
 }
+
+void SinglyList::freeData() {
+	Node* pNode = pHead;
+
+	while (pNode != nullptr) {
+		Node* tmp = pNode;
+		pNode = pNode->pNext;
+
+		delete tmp;
+		tmp = nullptr;
+	}
+}

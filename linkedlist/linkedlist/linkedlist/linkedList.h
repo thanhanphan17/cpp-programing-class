@@ -35,5 +35,7 @@ public:
 
 	void insert(int, int);
 	void printList();
+
+	void freeData();
 };
 
