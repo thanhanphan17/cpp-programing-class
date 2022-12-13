@@ -1,0 +1,4 @@
+﻿  pointer.cpp
+E:\cpp-teaching\Code\day_3\pointer\pointer.cpp(9,10): warning C4101: 'ptrD': unreferenced local variable
+E:\cpp-teaching\Code\day_3\pointer\pointer.cpp(8,8): warning C4101: 'ptrC': unreferenced local variable
+  pointer.vcxproj -> E:\cpp-teaching\Code\day_3\Debug\pointer.exe
