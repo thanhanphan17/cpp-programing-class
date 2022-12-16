@@ -34,8 +34,13 @@ public:
 	void pop_back();
 
 	void insert(int, int);
+	void remove(int);
 	void printList();
+	bool find(int);
+	void removeValue(int);
+	bool isDuplicate(int);
+	void removeDup();
 
-	void freeData();
+	int sum();
 };
 
